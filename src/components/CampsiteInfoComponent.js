@@ -57,5 +57,11 @@ function CampsiteInfo(props) {
     return <div />
 }
 
+class CommentForm extends React.Component {
+    render() {
+        <Button color="secondary" onClick={this.toggleModel}><i class="fas fa-pencil fa-lg"></i>Submit Comment</Button>
+    }
+}
+
 
 export default CampsiteInfo
